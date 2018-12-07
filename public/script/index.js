@@ -6,7 +6,6 @@ import Home from './components/Home';
 let router =  (
     <Router history={browserHistory}>
         <Route path = '/' component={Home}></Route>
-        <Route path = '/home' component={Home}></Route>
     </Router>
 );
 
